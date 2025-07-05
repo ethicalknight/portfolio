@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Jaymeen Bhatt - Cybersecurity Specialist, Full Stack Developer, and Community Builder. Explore my projects, skills, and connect with me." />
+    <meta name="keywords" content="Jaymeen Bhatt, Cybersecurity, Full Stack Developer, Ethical Hacking, TechConnect, WebSecScanner, Portfolio" />
+    <meta name="author" content="Jaymeen Bhatt" />
+    <title>Jaymeen Bhatt | Cybersecurity & Full Stack Developer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      .glow {
+        text-shadow: 0 0 10px #22c55e, 0 0 20px #22c55e;
+      }
+    </style>
+  </head>
+  <body class="bg-black text-white font-mono">
+    <!-- Navbar -->
+    <header class="bg-gray-900 p-4 flex justify-between items-center sticky top-0 z-50">
+      <h1 class="text-green-400 text-2xl glow">Jaymeen Bhatt</h1>
+      <nav>
+        <ul class="flex gap-4">
+          <li><a href="#about" class="hover:text-green-400">About</a></li>
+          <li><a href="#skills" class="hover:text-green-400">Skills</a></li>
+          <li><a href="#projects" class="hover:text-green-400">Projects</a></li>
+          <li><a href="#contact" class="hover:text-green-400">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="min-h-screen flex flex-col items-center justify-center text-center p-8">
+      <div class="w-32 h-32 rounded-full overflow-hidden border-4 border-green-400 mb-4">
+        <img src="https://avatars.githubusercontent.com/u/169483982?v=4" alt="Jaymeen Bhatt Avatar" class="w-full h-full object-cover" />
+      </div>
+      <h2 class="text-4xl mt-4 text-green-400 glow">Hi, I’m Jaymeen</h2>
+      <h2 class="text-2xl mt-2 text-green-400">a.k.a Ethical-knight</h2>
+      <p class="text-lg text-gray-300 mt-2">Cybersecurity Specialist | Full Stack Developer | Tech Community Builder</p>
+      <a href="#contact" class="mt-6 px-6 py-2 bg-green-500 hover:bg-green-600 rounded">Connect</a>
+
+      <!-- Social Media Links -->
+      <div class="flex gap-6 mt-6 text-2xl">
+        <a href="https://www.linkedin.com/in/ethicalknight" target="_blank" class="text-green-400 hover:underline">LinkedIn</a>
+        <a href="https://github.com/ethicalknight" target="_blank" class="text-green-400 hover:underline">GitHub</a>
+        <a href="https://www.instagram.com/jaymeen__bhatt/" target="_blank" class="text-green-400 hover:underline">Instagram</a>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="bg-gray-900 py-16 px-8">
+      <h2 class="text-3xl font-bold border-b-2 border-green-400 inline-block mb-4">About Me</h2>
+      <p class="text-gray-300 leading-loose">
+        Founder of CyberNexXus and cybersecurity intern at Cisco, IBM, and Elevate Labs. I’m deeply passionate about building secure systems, full stack apps, and guiding tech communities. Skilled in Python, JavaScript, ethical hacking, and AI-enhanced security. Let’s create the future of tech, together.
+      </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-16 px-8">
+      <h2 class="text-3xl font-bold border-b-2 border-green-400 inline-block mb-6">Technical Skills</h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center text-gray-300">
+        <div class="bg-gray-800 p-4 rounded">HTML</div>
+        <div class="bg-gray-800 p-4 rounded">CSS / Tailwind</div>
+        <div class="bg-gray-800 p-4 rounded">JavaScript</div>
+        <div class="bg-gray-800 p-4 rounded">Python</div>
+        <div class="bg-gray-800 p-4 rounded">Flask</div>
+        <div class="bg-gray-800 p-4 rounded">Networking & OSINT</div>
+        <div class="bg-gray-800 p-4 rounded">Burp Suite / Nmap</div>
+        <div class="bg-gray-800 p-4 rounded">Wireshark / Metasploit</div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="bg-gray-900 py-16 px-8">
+      <h2 class="text-3xl font-bold border-b-2 border-green-400 inline-block mb-6">Projects</h2>
+      <ul class="space-y-4 text-gray-300">
+        <li><strong>WebSecScanner</strong>: Python tool for scanning web vulnerabilities (XSS, SQLi, CSRF)</li>
+        <li><strong>TechConnect Hub</strong>: Tech community platform being upgraded to full stack</li>
+        <li><strong>Anant 1.0 AI</strong>: Personal AI assistant (ongoing)</li>
+        <li><strong>Steganography Web App</strong>: Image-based secure data hiding</li>
+        <li><strong>Pixel Manipulator</strong>: Image encryption through pixel modification</li>
+        <li><strong>Password Strength Evaluator</strong>: Real-time strength feedback using JS</li>
+        <li><strong>Edusniff</strong>: Network packet sniffer GUI using Python</li>
+        <li><strong>Keylogger</strong>: GUI-based keystroke logger (Python)</li>
+        <li><strong>Caesar Cipher</strong>: Encryption-decryption tool with UI</li>
+      </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 px-8">
+      <h2 class="text-3xl font-bold border-b-2 border-green-400 inline-block mb-6">Contact Me</h2>
+      <form id="contactForm" class="flex flex-col gap-4 max-w-md">
+        <input type="text" id="name" placeholder="Name" required class="p-2 bg-black border border-green-400 rounded" />
+        <input type="email" id="email" placeholder="Email" required class="p-2 bg-black border border-green-400 rounded" />
+        <textarea id="message" placeholder="Message" required class="p-2 bg-black border border-green-400 rounded"></textarea>
+        <button type="submit" class="bg-green-500 text-black px-4 py-2 rounded hover:bg-green-600 transition">Send</button>
+      </form>
+      <p id="formStatus" class="mt-4 text-green-400 hidden">Thanks! I’ll get back to you soon.</p>
+    </section>
+
+    <footer class="bg-gray-800 text-center py-4 text-sm text-gray-400">
+      &copy; 2025 Jaymeen Bhatt. Built with 💻 | <a href="https://github.com/ethicalknight" class="text-green-400 hover:underline">GitHub</a> | <a href="https://www.linkedin.com/in/ethicalknight" class="text-green-400 hover:underline">LinkedIn</a>
+    </footer>
+
+    <script>
+      const form = document.getElementById("contactForm");
+      const status = document.getElementById("formStatus");
+
+      form.addEventListener("submit", function (e) {
+        e.preventDefault();
+        const name = document.getElementById("name").value;
+        status.classList.remove("hidden");
+        status.innerText = `Thanks, ${name}! Your message has been received.`;
+        form.reset();
+      });
+    </script>
+  </body>
+</html>
